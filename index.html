@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/042e70a622.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <div class="menu_fondo header">
+    <div class="contenedor">
+      <div class="elementos">
+        <div>
+          <h2 class="logo">Logotipo</h2>
+        </div>
+        <div class="menu">
+          <ul class="items">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acercade">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#estadisticas">Estadisticas</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#opiniones">Opiniones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li>
+              <form action="">
+                <input type="text" name="buscar" id="buscador" placeholder="buscar..." class="oculto" />
+                <a href="#" id="search" onclick="buscar()"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="principal_fondo principal separador" id="inicio">
+    <div class="contenedor">
+      <div class="detalles_principal">
+        <h1 class="titulo">Haz crecer tu negocio</h1>
+        <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem asperiores soluta at
+          veritatis quasi molestiae unde totam aliquid ea?</p>
+        <div class="botones_contacto">
+          <button class="boton">EMPEZAR</button>
+          <button class="boton">EXPLORA MAS</button>
+        </div>
+        <div class="navegacion">
+          <i class="fa-solid fa-angle-left"></i>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor conocenos separador">
+    <div class="informacion">
+      <h2 class="titulo">Nuestro trabajo</h2>
+      <p class="subtitulo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto accusamus blanditiis impedit
+        quibusdam veritatis vel dolorem eos placeat dolore perferendis.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-people-line"></i>
+        </div>
+        <h2 class="titulo">Consultoria empresarial</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-chart-pie"></i>
+        </div>
+        <h2 class="titulo">Analisis de datos</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-clock"></i>
+        </div>
+        <h2 class="titulo">Servicio On time</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="acerca_de_fondo">
+    <div class="contenedor acerca_de separador" id="acercade">
+      <div class="info">
+        <h2 class="titulo">Sobre nosotros</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde quae fugiat quod
+          illo voluptatum facere quia, minus qui temporibus in numquam deserunt alias repudiandae ipsum praesentium
+          earum labore consequuntur. Nihil quisquam eaque omnis rerum totam reprehenderit itaque laboriosam
+          veritatis.</p>
+        <a href="" class="boton">Conocenos</a>
+      </div>
+      <div class="imagen">
+        <img src="images/taza.jpg" alt="Imagen de una taza">
+      </div>
+    </div>
+  </div>
+  
+  <div class="servicios contenedor separador" id="servicios">
+    <div class="informacion">
+      <h2 class="titulo">Nuestros servicios</h2>
+      <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo iste laborum.
+        Architecto quaerat repellat ipsa minus, exercitationem a repudiandae.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-list-check"></i>
+        </div>
+        <h2 class="titulo">Gestion de proyectos</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-ruler-combined"></i>
+        </div>
+        <h2 class="titulo">Planificador de negocios</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil quisquam
+          assumenda neque eius! Tempore voluptates placeat laboriosam officiis magnam.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <h2 class="titulo">Servicios financieros</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis
+          nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <h2 class="titulo">Gestion de riegos</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis
+          nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-briefcase"></i>
+        </div>
+        <h2 class="titulo">Asesores expertos</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis
+          nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fa-solid fa-phone-volume"></i>
+        </div>
+        <h2 class="titulo">Atencion al cliente personalizada</h2>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis
+          nam
+          dolores tempore odio, sunt illo pariatur quo esse beatae.</p>
+        <a href="" class="boton">Aprende mas</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="estadisticas_fondo">
+    <div class="contenedor estadisticas separador" id="estadisticas">
+      <div class="elementos_estadisticas">
+        <div class="elementos">
+          <i class="fa-solid fa-calendar-days"></i>
+          <div class="estadistica">
+            <div class="numero">2556</div>
+            <div class="titulo">Dias trabajados</div>
+          </div>
+        </div>
+        <div class="elementos">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <div class="estadistica">
+            <div class="numero">326</div>
+            <div class="titulo">Proyectos terminados</div>
+          </div>
+        </div>
+        <div class="elementos">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <div class="estadistica">
+            <div class="numero">1543</div>
+            <div class="titulo">Tazas de cafe</div>
+          </div>
+        </div>
+        <div class="elementos">
+          <i class="fa-solid fa-face-grin-wide"></i>
+          <div class="estadistica">
+            <div class="numero">837</div>
+            <div class="titulo">Clientes satisfechos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor precios separador" id="precios">
+    <div class="informacion">
+      <h2 class="titulo">Nuestros planes</h2>
+      <p class="subtitulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum velit consequatur officiis eum quae veritatis adipisci, maxime itaque. Expedita, placeat.</p>
+    </div>
+    <div class="cards">
+
+      <div class="precio">
+        <div class="cabecera">
+          <div class="titulo">Basico</div>
+          <div class="valor"><sup>$</sup>99</div>
+          <div class="tipo">Mensual</div>
+        </div>
+        <div class="detalles">
+          <ul>
+            <li>1 Usuario</li>
+            <li>1 Proyecto</li>
+            <li>Equipo asesor</li>
+            <li>Estadisticas completas</li>
+            <li>Soporte de correo electronico</li>
+          </ul>
+        </div>
+        <a href="" class="boton">Registrate ahora</a>
+      </div>
+
+      <div class="precio">
+        <div class="cabecera">
+          <div class="titulo">Estandar</div>
+          <div class="valor"><sup>$</sup>299</div>
+          <div class="tipo">Mensual</div>
+        </div>
+        <div class="detalles">
+          <ul>
+            <li>5 Usuarios</li>
+            <li>5 Proyectos</li>
+            <li>Equipo asesor</li>
+            <li>Estadisticas completas</li>
+            <li>Soporte de correo electronico</li>
+          </ul>
+        </div>
+        <a href="" class="boton">Registrate ahora</a>
+      </div>
+
+      <div class="precio">
+        <div class="cabecera">
+          <div class="titulo">Avanzado</div>
+          <div class="valor"><sup>$</sup>499</div>
+          <div class="tipo">Mensual</div>
+        </div>
+        <div class="detalles">
+          <ul>
+            <li>10 Usuarios</li>
+            <li>10 Proyectos</li>
+            <li>2 Equipos asesores</li>
+            <li>Estadisticas completas</li>
+            <li>Soporte de correo electronico</li>
+          </ul>
+        </div>
+        <a href="" class="boton">Registrate ahora</a>
+      </div>
+
+      <div class="precio">
+        <div class="cabecera">
+          <div class="titulo">Completo</div>
+          <div class="valor"><sup>$</sup>1099</div>
+          <div class="tipo">Mensual</div>
+        </div>
+        <div class="detalles">
+          <ul>
+            <li>Usuarios ilimitados</li>
+            <li>20 Proyectos</li>
+            <li>4 Equipos asesores</li>
+            <li>Estadisticas completas</li>
+            <li>Soporte completo</li>
+          </ul>
+        </div>
+        <a href="" class="boton">Registrate ahora</a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
